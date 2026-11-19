@@ -20,3 +20,4 @@ export async function salvarMensagens(mensagens) {
     await mkdir(PASTA, { recursive: true });
     await writeFile(ARQUIVO, JSON.stringify(mensagens, null, 2), "utf8");
 }
+//fim
